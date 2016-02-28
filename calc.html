@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>HTML</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	  <link rel = "stylesheet" href = "styleIndex.css">
+   </head>
+    <body>
+		<header>
+		  <div class = "block1">
+			<a href="index.html">
+				<img src="webLogo.png"  alt="HTML" />
+			</a>
+			<h1>Основы Web-технологий</h1>
+		
+			<ul class = "line1">
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="web.html">Web-технологии</a>
+					<ul class = "list">
+						<li><a href="html5.html">HTML5</a></li>
+						<li><a href="css3.html">CSS3</a></li>
+						<li><a href="js.html">JavaScript</a></li>
+					</ul>
+				</li>
+				<li><a href="calc.html">Калькулятор</a></li>
+				<li><a href="test.html">Тест</a></li>
+			</ul>
+		  </div>
+		</header>
+		<div>
+			<form name="calculator">
+			<table>
+				<tr>
+					<td colspan="5"><input id="inp" type = "text" class = "row" value = "" disabled="disabled" /></td>
+				</tr>
+				<tr>
+					<td><button name="num" type = "button" value="7">7</button></td>
+					<td><button name="num" type = "button" value="8">8</button></td>
+					<td><button name="num" type = "button" value="9">9</button></td>
+					<td><button name="action" type = "button" value="/">/</button></td>
+					<td><button id="butReset" type = "button" value = "">C</button></td>
+				</tr>
+				<tr>
+					<td><button name="num" type = "button" value="4">4</button></td>
+					<td><button name="num" type = "button" value="5">5</button></td>
+					<td><button name="num" type = "button" value="6">6</button></td>
+					<td><button name="action" type = "button" value="*">*</button></td>
+					<td><button name="action" type = "button" value="oposit">&plusmn;</button></td>
+				</tr>
+				<tr>
+					<td><button name="num" type = "button" value="1">1</button></td>
+					<td><button name="num" type = "button" value="2">2</button></td>
+					<td><button name="num" type = "button" value="3">3</button></td>
+					<td><button name="action" type = "button" value="min">-</button></td>
+					<td rowspan="2"><button id="equaly" type = "button" class="equaly">=</button></td>
+				</tr>
+				<tr>
+					<td colspan="2"><button name="num" type = "button" class = "null"  value="0">0</button></td>
+					<td><button name="num" type = "button" value=".">.</button></td>
+					<td><button name="action" type = "button" value="plus">+</button></td>
+				</tr>
+			</table>
+			</form>		
+		</div>
+	  <div class = "blockFooter">
+		<footer>
+			<address>
+				<a href="mailto:ss_s777@mail.ru">Пишите ss_s777@mail.ru</a><br />
+			</address>
+			&copy; Фамилия И.О. год
+		</footer>
+	  </div>
+	  	  <script src="scr3calc.js"></script>
+   </body>   
+</html>

@@ -1,0 +1,126 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+
+body 
+	{
+	background: gray;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+div {
+	border-radius: 10px; /* закругленные углы */
+	background: white;
+	padding: 5px;
+}
+div.blockFooter{
+	text-align:center;
+}
+h1 {
+	padding-left: 230px; /* отступы от текста*/
+	padding-top: 30px;
+}
+img {
+	height: 90px;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	float: left;
+}
+ul.line1 {
+	padding-left: 230px;
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+ul.line1>li	  {
+	display: inline; /*расположить верхнее меню в линию*/
+	position: relative;
+}
+.list {
+	position: absolute;
+	top: 95%;
+	left: 0;
+	background: white;
+}
+li ul {
+	display: none;
+	list-style-type: none; /*убрать маркеровку*/
+}
+li:hover ul { 
+    display: inline-block; /* При выделении пункта курсором мыши отображается подменю */
+	float: left;
+	width: 62px;
+	border-radius: 10px;
+	border: 1px solid black; /* Параметры границы */
+    padding: 7px; /* Поля вокруг текста */
+}
+.listDeterminate {
+	padding-left: 20px;
+}
+.blockRight {
+	float: right;
+	width: 200px;
+	background: hsl(0, 10%, 90%);
+	border-radius: 5px;
+	padding: 10px 5px 5px 5px;
+	margin: 5px;
+	font-size: small;
+}
+h2 {
+	line-height: 2;
+}
+button {
+		width: 40px;
+		height: 32px;
+}
+.row {
+	width: 204px;
+	height: 32px;
+}
+button.equaly {
+	height: 66px;
+}
+button.null {
+	width: 82px;
+}
+dd {
+	text-indent: 2em;
+}
+table {
+		margin-left: auto;
+		margin-right: auto;
+}
+p  {
+	text-align: justify;
+}
+a[href*="mailto"]{font-style:italic}/*курсив*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
